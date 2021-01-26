@@ -1,0 +1,102 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    /* Add CSS for <h1> tags inside top-wrapper */
+    top-wrapper h1{
+      font-size:32px;
+      
+    }
+    
+    /* Add CSS for <h2> tags inside heading */
+    top-wrapper h2{
+      font-size:20px;
+    }
+    
+    
+  }
+  @media (min-width: 670px){
+    .hidable-nav{
+      display:none;
+    }
+    
+  }
+  
+  /* For Smartphones */
+  @media (max-width: 670px) {
+    .lesson {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    
+    /* .btn {
+      width: 100%;
+    } */
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    /* Add CSS for <h1> tags inside top-wrapper */
+    .top-wrapper h1{
+      font-size:24px;
+      line-height:36px;
+    }
+    
+    /* Add CSS for <p> tags inside top-wrapper */
+    .top-wrapper p{
+      font-size:14px;
+      line-height:20px;
+    }
+    .container{
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: 100%;
+     
+    }
+    input[type="email"] {
+      width: 100%;
+     
+    }
+    textarea{
+      width: 100%;
+    }
+    .contact-form {
+      width: 95%;
+    }
+    .h-r-l{
+      display:none;
+    }
+    .hide-bars-b{
+      display:block;
+  }
+  .h-r-l:hover {
+    background-color:rgba(34, 49, 52, 0.9) ;
+    color: rgb(7, 102, 119);
+  }
+  .description-right{
+    width: 100%;
+  }
+  .content-right {
+    width:100%;
+  }
+  .projects{
+    width: 96%;
+  }
+  
+  }
